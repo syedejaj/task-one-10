@@ -7,6 +7,29 @@
     font-style: normal;
 }
 
+/* shared styles */
+.section-title,
+.section-description {
+    text-align: center;
+}
+
+.common-btn {
+    width: 150px;
+    height: 48px;
+    border-color: gray;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+main section {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
 /* header styles */
 .header {
     background-image: url('../images/Hero-bg.png');
@@ -31,4 +54,26 @@
     border: none;
     margin-top: 32px;
     margin-bottom: 44px;
+}
+
+/* question styles */
+.question {
+    padding: 80px 97px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: azure;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.row .part-1 {
+    width: 50%;
+}
+
+.row .img {
+    width: 50%;
 }
