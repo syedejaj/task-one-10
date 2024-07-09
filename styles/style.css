@@ -77,3 +77,19 @@ main section {
 .row .img {
     width: 50%;
 }
+
+/* inspiration styles */
+.inspiration {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.video-player {
+    padding: 30px;
+}
+
+iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 550px;
+}
