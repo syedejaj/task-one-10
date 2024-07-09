@@ -1,0 +1,34 @@
+/* font set up */
+
+
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* header styles */
+.header {
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+}
+
+.contact-btn {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
