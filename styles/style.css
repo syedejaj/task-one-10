@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.text-white {
+    color: white;
+}
+
 .common-btn {
     width: 150px;
     height: 48px;
@@ -124,4 +128,37 @@ iframe {
 
 .css {
     background-color: aquamarine;
+}
+
+/* support styles */
+.support {
+    background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.7), rgba(0, 0, 0, 0.7)), url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.support-content {
+
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+form input[type="text"] {
+    width: 548px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+
+}
+
+form input[type="submit"] {
+    width: 120px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
 }
